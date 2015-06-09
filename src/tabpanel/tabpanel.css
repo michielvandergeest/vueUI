@@ -1,0 +1,71 @@
+.tabpanel {
+	width: 50%;
+	height: 300px;
+	border: solid 1px #ccc;
+	position: relative;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.tabpanel .tabpanel-labels {
+	border-bottom: solid 1px #ccc;
+	float: left;
+	width: 100%;
+	background: #fcfcfc;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.tabpanel .tabpanel-labels ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.tabpanel .tabpanel-labels ul li {
+	display: inline-block;
+	margin: 0px;
+	width: 100px;
+	height: 30px;
+	background: #eee;
+	float: left;
+	border-right: solid 1px #ccc;
+	position: relative;
+}
+.tabpanel .tabpanel-labels ul li label {
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	display: inline-block;
+}
+.tabpanel .tabpanel-labels ul li.active {
+	background: #ddd;
+	height: 33px;
+	margin-top: -4px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	font-weight: bold;
+	margin-left: -1px;
+	border: solid 1px #ccc;
+	border-bottom: none;
+	line-height: 34px;
+}
+.tabpanel .tabpanel-tabscontainer {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+.tabpanel .tabpanel-tabscontainer .tab {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	display: none;
+	padding: 5px;
+}
+.tabpanel .tabpanel-tabscontainer .tab.active {
+	display: block;
+}
