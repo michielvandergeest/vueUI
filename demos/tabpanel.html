@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>VueUI - Tabpanel</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="vendor/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="../src/tabpanel/tabpanel.css" />
+	</head>
+	<body>
+
+		<h1>VueUI</h1>
+
+		<section>
+			<h2>Tabpanel Demo</h2>
+
+			<h3>Demo 1 - simple tabpanel</h3>
+			<div id="demo">
+
+				<vue-ui-tabpanel v-ref="tabpanel">
+					<vue-ui-tab title="Tab 1">
+						<p>This is the content of tab 1</p>
+					</vue-ui-tab>
+					<vue-ui-tab title="Tab 2">
+						<p>This is the content of tab 2</p>
+					</vue-ui-tab>
+					<vue-ui-tab title="Tab 3">
+						<p>This is the content of tab 3</p>
+					</vue-ui-tab>
+				</vue-ui-tabpanel>
+
+			</div>
+		</section>
+		<script src="vendor/js/vue.js"></script>
+		<script src="../src/tabpanel/tabpanel.js"></script>
+		<script>
+			var app = new Vue({
+				el: '#demo'
+			});
+		</script>
+	</body>
+</html>
