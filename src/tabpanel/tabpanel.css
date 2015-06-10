@@ -29,6 +29,20 @@
 	border-right: solid 1px #ccc;
 	position: relative;
 }
+.tabpanel .tabpanel-labels ul li .close-tab {
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	border-radius: 14px;
+	background: #ccc;
+	width: 14px;
+	height: 14px;
+	text-align: center;
+	line-height: 12px;
+	font-size: 10px;
+	font-weight: normal;
+	cursor: pointer;
+}
 .tabpanel .tabpanel-labels ul li label {
 	font-size: 12px;
 	line-height: 30px;
