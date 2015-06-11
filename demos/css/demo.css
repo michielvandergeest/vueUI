@@ -13,6 +13,7 @@ h1 {
 	padding: 10px;
 	position: fixed;
 	border-bottom: 3px solid #41b883;
+	z-index: 100;
 }
 h2 {
 	font-size: 1.8em;
